@@ -9,12 +9,12 @@ body{
 
 
 nav{
-    background-image: url("file:///C:/Users/DELL/todo-app-main/images/bg-desktop-light.jpg");
+    background-image: url("images/bg-desktop-light.jpg");
     height: 40vh;
 }
 
 .nav{
-    background-image: url("file:///C:/Users/DELL/todo-app-main/images/bg-desktop-dark.jpg");
+    background-image: url("images/bg-desktop-dark.jpg");
     height: 40vh;
 }
 
