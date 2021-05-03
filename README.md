@@ -63,5 +63,5 @@ In some other future projects I will code I'll really love to try it out with so
 ## Author
 
 - Website - [No website Yet](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@igboBoy_dev](https://www.frontendmentor.io/profile/xtremeCode6022)
 - Twitter - [@igboBoy_dev](https://twitter.com/igboBoy_dev)
