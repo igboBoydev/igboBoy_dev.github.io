@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./C:\Users\DELL\todoOnGithub\igboBoy_dev.github.io\images\icon-sun.svg)
-![](./C:/Users/DELL/todoOnGithub/igboBoy_dev.github.io/images/screencapture-file-C-Users-DELL-check-html-2021-05-03-21_43_36.png)
+![](./chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=5&url=file%3A%2F%2F%2FC%3A%2FUsers%2FDELL%2Fcheck.html%3Ftext%3Dddddddddddd)
+![](./chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=6&url=file%3A%2F%2F%2FC%3A%2FUsers%2FDELL%2Fcheck.html%3Ftext%3Dddddddddddd)
 
 ### Links
 
