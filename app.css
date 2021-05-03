@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: rgb(29, 27, 27);
+}
+
+
+nav{
+    background-image: url("file:///C:/Users/DELL/todo-app-main/images/bg-desktop-light.jpg");
+    height: 40vh;
+}
+
+.nav{
+    background-image: url("file:///C:/Users/DELL/todo-app-main/images/bg-desktop-dark.jpg");
+    height: 40vh;
+}
+
+section.section1{
+    margin: -225px auto auto auto;
+    width: 60vw;
+    height: 500px;
+}
+
+div.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+div.div > img{
+    padding-top: 20px;
+    width: 20px;
+    height: 40px;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+form > input{
+    width: 56.5vw;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+input::placeholder{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+div.div1{
+    width: 57vw;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+div.div1 > div.div2{
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: rgb(130, 123, 123);
+}
+
+section.section1 > div.secDiv{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    width: 46vw;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 30px auto auto auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(130, 123, 123);
+}
+
+section.section1 > div.secDiv > h3:nth-child(2){
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+div.div1 > div.div2 > div.no1{
+    display: flex;
+    flex-direction: row;
+}
+
+div.div1 > div.div2 > div.no1 > span{
+    padding-right: 5px;
+    padding-top: 17px;
+}
+
+div.div1 > div.div2 > div.no2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.section1 > p.lastP{
+    color: rgba(51, 51, 51, 0.576);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.div1 > div.div2 > div.no2 > h3:nth-child(2){
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.display{
+    display: none;
+}
+
+#display{
+    display: none;
+}
+
+#active{
+    display: inline;
+    padding-right: 20px;
+}
+
+h3:hover{
+    color: hsl(233, 86%, 29%);
+}
+
+ul > li{
+    width: inherit;
+    font-size: 24px;
+    list-style: none;
+    border-bottom: 1px solid rgb(184, 167, 167);
+    padding-top: 10px;
+    margin-left: -40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+i{
+    padding-right: 20px;
+    color: rgba(130, 123, 123, 0.494);
+}
+
+i.fa-check-circle{
+    color: rgb(161, 184, 10);
+}
+
+
+@media(max-width: 760px){
+    form{
+        margin-left: 5px;
+    }
+
+    form > input{
+        width: 80vw;
+        height: 45px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+
+    input[type=text]:focus{
+        outline: none;
+    }
+
+    input::placeholder{
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+        
+    section.section1{
+    margin: -225px auto auto auto;
+    width: 80vw;
+    height: 500px;
+    }
+
+    div.div1{
+        width: 80vw;
+        background: #fff;
+        border: 1px solid #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 5px;
+        padding-right: 5px;
+    }
+
+    div.div1 > div.div2{
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 13px;
+        color: rgb(130, 123, 123);
+    }
+
+    div.div1 > div.div2 > div.no2{
+        display: none;
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    section.section1 > div.secDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 76vw;
+        padding-left: 15px;
+        padding-right: 19px;
+        border: 1px solid rgba(24, 23, 23, 0.378);
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 3px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        color: rgb(130, 123, 123);
+    }
+
+    section.section1 > div.secDiv > h3:nth-of-type(2){
+        text-align: end;
+        padding-left: 4rem;
+    }
+
+    
+    ul > li{
+        width: inherit;
+        font-size: 24px;
+        list-style: none;
+        border-bottom: 1px solid rgb(184, 167, 167);
+        padding-top: 10px;
+        margin-left: -40px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} 
+
+
+.completed#dragging{
+    opacity: .5;
+}
+
+.container{
+    background: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 50vw;
+    margin-left: 20rem;
+}
+
+.container:first-of-type{
+    margin-top: 5rem;
+}
+
+/* .draggable{
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: move;
+} */
