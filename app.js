@@ -71,6 +71,7 @@ function color2(){
     ulBackground.style.borderColor = '#fff'
     ulBackground.style.color = '#333'
     inputFocus.style.background = '#fff'
+    inputFocus.style.color = '#333'
     select.style.borderColor = '#fff'
 }
 
@@ -85,6 +86,7 @@ function color1(){
     ulBackground.style.borderColor = '#333'
     ulBackground.style.color = '#fff'
     inputFocus.style.background = '#333'
+    inputFocus.style.color = '#fff'
     select.style.borderColor = '#333'
 }
 
