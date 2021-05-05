@@ -34,7 +34,8 @@ div.div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div.div > img{
@@ -214,11 +215,10 @@ i.fa-check-circle{
     }
    
     div.div{
-        width: 78vw;
+        width: 82vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 20px;
     }
 
     div.div1{
