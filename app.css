@@ -212,6 +212,14 @@ i.fa-check-circle{
     width: 80vw;
     height: 500px;
     }
+   
+    div.div{
+        width: 78vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+    }
 
     div.div1{
         width: 81vw;
