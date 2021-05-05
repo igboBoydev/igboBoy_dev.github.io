@@ -165,9 +165,7 @@ function iconChange(e){
                 let a = e.target;
                 if (a.classList.contains('completed')) {
                     comp.style.backgroundColor = 'rgb(125, 149, 208)'
-                } else if (a.classList.contains('active')) {
-                    console.log('active')
-                }
+                } 
             })
         })
        
@@ -188,11 +186,6 @@ function iconChange(e){
                     }        
                 }else{
                     alert('Not done with any todo yet, get back to work please!!!');
-                }
-            }
-            if (x.classList.contains('active')) {
-                if (!comp.classList.contains('completed')) {
-                    console.log(comp)
                 }
             }
         }
