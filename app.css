@@ -255,13 +255,12 @@ i.fa-check-circle{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 76vw;
+        width: 75vw;
         padding-left: 15px;
         padding-right: 19px;
         border: 1px solid rgba(24, 23, 23, 0.378);
         border-radius: 5px;
         margin-top: 30px;
-        margin-left: 3px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         color: rgb(130, 123, 123);
     }
